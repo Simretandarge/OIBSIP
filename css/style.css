@@ -9,5 +9,5 @@ section {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-image:css/download (1).jpg ;
+	background-image: url(/download (1).jpg) ;
 }
