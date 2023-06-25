@@ -10,5 +10,5 @@ body{
 	flex-direction: column;
 	justify-content: flex-start;
 	background-position: center;
-	background-image: url(ExpressVPN_Horizontal_Logo_Red.png) ;
+	background: url(ExpressVPN_Horizontal_Logo_Red.png) ;
 }
