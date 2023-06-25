@@ -9,6 +9,6 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-position: center;
+	background-position: upper;
 	background: url(Untitled.jpg) ;
 }
