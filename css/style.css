@@ -2,7 +2,7 @@
 	margin: 0;
     padding: 0;
 }
-.section{
+body{
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
@@ -10,5 +10,4 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	background-position: center;
-	background-image: (css/download (1).jpg);
-}
+	background-image: url(ExpressVPN_Horizontal_Logo_Red.png);
