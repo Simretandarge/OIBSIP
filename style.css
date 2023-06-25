@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+    padding: 0;
+}
+body{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-position: center;
+	background-image: url(ExpressVPN_Horizontal_Logo_Red.png) ;
+}
