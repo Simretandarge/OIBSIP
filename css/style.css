@@ -2,12 +2,13 @@
 	margin: 0;
     padding: 0;
 }
-section {
+.section{
 	position: relative;
 	width: 100%;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	background-image: url(css/download (1).jpg) ;
+	background-position: center;
+	background-image: (css/download (1).jpg);
 }
