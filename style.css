@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@500&family=Poppins:ital@1&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@500&family=Poppins:ital@1&family=Roboto:wght@500;900&display=swap');
 *{
-    margin: 15px;
-    padding: 15px;
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 body{
     color: #000;
@@ -14,12 +14,64 @@ section{
     background-image: url(Untitled.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2px;
+    background-size: contain;
 }
 section header{
     display: flex;
     justify-content: space-between;
-    align-items: unset;
-    padding: 2px;
+    align-items: center;
+    padding: 90px 200px;
+}
+section main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    column-gap: 1px;
+    margin-top: 0vh;
+}
+section main .text h1{
+    display: flex;
+    justify-content:unset;
+    margin-top: 0px;
+    font-size: 30px;
+    padding: 0px 300px;
+}
+section main .text h6{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    font-size: 30px;
+    padding: 20px;
+}
+section main .text h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    font-size:30px;
+    padding: 2px 15px;
+    color: white;
+    background-color:green;
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+}
+section main .text small{
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+    font-size: 13px;
+    padding: 20px;
+}
+body main{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 150px;
+}
+body main .secure{
+    padding: 120px;
+}
+body main .secure code h2{
+    font-size: 100px
 }
