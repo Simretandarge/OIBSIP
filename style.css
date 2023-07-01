@@ -21,7 +21,8 @@ header.nav{
     align-items: unset;
 
 }
-header.nav.logo{
+header nav logo{
     padding: 1px 2px ;
     margin: 0;
+    background-size: 2%;
 }
