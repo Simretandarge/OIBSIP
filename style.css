@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@500&family=Poppins:ital@1&family=Roboto:ital,wght@0,900;1,500&display=swap');
 *{
-    margin: 5px;
-    padding: 10px;
+    margin: 10px;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -103,13 +103,18 @@ body sub{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: -10px;
 
 }
 body sub .text h5{
-    font-size: 85px;
+    font-size: 80px;
 }
 body sub .text small{
-    font-size: 33px;
+    font-size: 25px;
+}
+body sub .click{
+    padding: 20px;
+    margin-top: 250px;
 }
 body sub .text .os h5{
     display: flex;
@@ -117,7 +122,7 @@ body sub .text .os h5{
     justify-content: space-between;
     color: rgb(25, 88, 25);
     background: whitesmoke;
-    font-size: 30px;
+    font-size: 25px;
     width: 35px;
 }
 body sub .text .apps h6{
@@ -126,7 +131,20 @@ body sub .text .apps h6{
 }
 body sub .text .connect{
     color: white;
-    background-color: green;
+    background-color: rgb(25, 88, 25);
     border-radius: 40px;
     font-size: 40px;
-} 
+}
+body cite .advantages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 40px;
+}
+body cite .advantages p{
+    font-size: 25px;
+}
+body cite .click{
+    padding: 30px 700px;
+    color: rgb(25, 88, 25);
+}
