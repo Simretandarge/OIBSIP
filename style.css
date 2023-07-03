@@ -68,21 +68,65 @@ body main{
     font-size: 30px;
     padding: 150px;
     margin: 20px;
+
 }
 body main .secure{
     padding: 2px 0-px;
 }
 body main .code h2{
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 5;
 }
 body main .code small{
-    font-size: 22px;
+    font-size: 25px;
     font-weight: -1000;
 }
 body main .code h5{
     color: white;
     background: rgb(25, 88, 25);
     border-radius: 30px;
+}
+body map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+body map .content h5{
+    font-size: 90px;
+    font-weight: 100;
+}
+body map .content small{
+    font-size: 35px;
+}
+body sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
+body sub .text h5{
+    font-size: 85px;
+}
+body sub .text small{
+    font-size: 33px;
+}
+body sub .text .os h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(25, 88, 25);
+    background: whitesmoke;
+    font-size: 30px;
+    width: 35px;
+}
+body sub .text .apps h6{
+    color: rgb(25, 88, 25);
+    font-size: 40px;
+}
+body sub .text .connect{
+    color: white;
+    background-color: green;
+    border-radius: 40px;
+    font-size: 40px;
+} 
