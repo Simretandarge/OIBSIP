@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Montserrat:wght@500&family=Poppins:ital@1&family=Roboto:ital,wght@0,900;1,500&display=swap');
 *{
     margin: 10px;
-    padding: 15px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -123,7 +123,6 @@ body sub .text .os h5{
     color: rgb(25, 88, 25);
     background: whitesmoke;
     font-size: 25px;
-    width: 35px;
 }
 body sub .text .apps h6{
     color: rgb(25, 88, 25);
@@ -147,4 +146,24 @@ body cite .advantages p{
 body cite .click{
     padding: 30px 700px;
     color: rgb(25, 88, 25);
+}
+body summary{
+    background-image: url(fast.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000;
+    background-color: rgb(245, 238, 238)
+}
+body summary .main{
+    padding: 1px 500px;
+    font-size: 30px;
+}
+body summary .lasts{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 1100px;
+    font-size: 25px;
+}
+body summary .last{
+    padding: 50px 700px;
 }
