@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+nav{
+    position:fixed;
+    width: 100%;
+    height: 15%;
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    top: 0;
+    z-index: 50;
+    background-color: rgb(58, 61, 60);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 37, 36);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.emoji{
+    font-size: 50px;
+    padding: 35px 40px;
+    right: 85%;
+    float: left;
+
+    
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+span{
+    color: rgb(200, 43, 43);
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+    display: block;
+    flex-direction: row;
+}
+nav li{
+    display: inline-block;
+    margin: 0 35px;
+    line-height: 80px;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+    padding: 7 10px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+nav #icon{
+    display: none;
+    position: absolute;
+    left:85%;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    cursor: pointer;
+    float: right;
+    top: 30%;
+}
+/* Responsive  */
+@media (max-width:1048px ) {
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+        display: block
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
+@media (max-width: 909px){
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2f3640;
+        top: 15%;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+
+.Home{
+    position: relative;
+    width: 100%;
+    height:100%;
+    background-color: rgb(58, 61, 60);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    margin-top: 5%;
+
+}
+.myname{
+    font-size: 45px;
+    color: white;
+    padding: 15px 20px;
+    margin-top: 15%;
+}
+.social_media a{
+    position: relative;
+    padding: 12px 20px;
+    color: white;
+}
+.social_media a:hover{
+    color: rgb(128, 158, 197);
+    transition: .8s ease;
+}
+.introduction{
+    font-size: 15px;
+    color: white;
+    padding: 20px 25px;
+}
+.introduction h4{
+    padding: 10px 15px;
+}
+.introduction h2{
+    padding: 10px 15px;
+}
+.introduction p{
+    padding: 10px 15px;
+}
+.jh img{
+    border-radius: 300px;
+}
+.About{
+    width: 100%;
+    height: 80%;
+    background: rgb(50, 46, 46);
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 45px 50px;
+    color: white;
+}
+.Aboutme{
+    font-size: 15px;
+}
+.Aboutme h2{
+    padding: 15px 5px;
+}
+.Aboutme h3{
+    padding: 10px 5px;
+}
+.Aboutme h4{
+    padding: 10px 5px;
+}
+.Aboutme p{
+    padding: 10px 5px; 
+}
+.Education{
+    background-color: rgb(15, 15, 42);
+    padding: 7px;
+    border-radius: 25px;
+}
+.Education:hover{
+    transition: .5s ease-in-out;
+    transform: scale(1.1);
+    
+}
+.Experiance{
+    background-color: rgb(15, 15, 42);
+    padding-top: 30px;
+    border-radius: 25px;
+}
+.Experiance:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+
+}
+.Education h3{
+    font-size: 30px;
+    padding: 25px 20px;
+    color: yellow;
+}
+.Experiance h3{
+    font-size: 20px;
+    padding: 10px 10px;
+    color: yellow;
+}
+.Education h2{
+    font-size: 20px;
+    padding: 30px 25px;
+}
+.Experiance h2{
+    font-size: 15px;
+    padding: 20px 20px;
+}
+.allstory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+.story a{
+    background: yellow;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+.story a:hover{
+    background: local;
+    transition: .4s ease-in;
+    text-shadow: whitesmoke;
+    font-weight: bolder;
+}
+.cv a{
+    background: yellow;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+.cv a:hover{
+    background: local;
+    transition: .4s ease-in;
+    text-shadow: whitesmoke;
+    font-weight: bolder;
+}
+.Services{
+    width: 100%;
+    height: 100%;
+    background: rgb(58, 61, 60);
+    color: white;
+}
+.Services p{
+    padding: 130px 40px 10px 10px;
+    font-size: 30px;
+}
+.Services h2{
+    padding: 10px 30px 50px 50px;
+    font-size: 20px;
+}
+.developer{
+    display: flex;
+    justify-content:space-around;
+}
+.developer .frontend{
+    background-color:  rgb(207, 207, 6);
+    padding: 60px 100px;
+}
+.developer .frontend:hover{
+
+    transition: all .8s ease;
+    transform: scale(1.1);
+}
+.developer .backend{
+    background-color: rgb(15, 15, 42);
+    padding: 60px 100px;
+}
+.developer .backend:hover{
+    
+    transition: all .8s ease;
+    transform: scale(1.1);
+}
+.developer .fullstack{
+    background-color:rgb(15, 15, 42);
+    padding: 60px 100px;
+}
+.developer .fullstack:hover{
+    transition: all .8s ease;
+    transform: scale(1.1);
+}
+.hire{
+    padding-left: 45%;
+    padding-top: 40px;
+    padding-bottom: 35px;
+
+}
+.hire a{
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 20px;
+}
+.hire a:hover{
+    background: local;
+    font-weight: bolder;
+    transition: .4s ease-in-out;
+}
+.Contact{
+    width: 100%;
+    height: 80%;
+    background: rgb(50, 46, 46);
+    padding: 20px 30px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact a{
+    padding: 20px 30px;
+    font-size: 40px;
+}
+.contact .call{
+    padding: 50px 30px;
+    font-size: 30px;
+}
+.contact a{
+    color: rgb(207, 207, 6);;
+}
+.call a{
+    text-decoration: none;
+    color:yellow
+}
+.call a:hover{
+    color:brown
+}
+.contact .Email{
+    padding: 50px 30px;
+    font-size: 30px;
+}
+.Email a{
+    text-decoration: none;
+    color: yellow
+}
+.Email a:hover{
+    color: brown
+}
+.contact .media{
+    padding: 50px 30px;
+    font-size: 50px;
+}
+.media a{
+    color: white
+}
+.media a:hover{
+    background-color:  rgb(128, 158, 197);
+    border-radius: 60px;
+}
+.contact-form form input, form textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px 100px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(15, 15, 42);
+    color:white;
+}
+.contact-form .submit{
+    display: inline-block;
+    background-color: yellow;
+    color: black;
+    transition: all .8s ease;
+}
+.contact-form .submit:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.end{
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color:rgb(128, 158, 197);
+}
+.last-text p{
+    color: rgb(0, 0, 0);
+}
+.top a i{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}

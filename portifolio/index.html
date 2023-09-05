@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo">Portifo<span>lio</span></label>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#story">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+    
+    <section class="Home" id="Home">
+            <div class="home">
+                <div class="myname">
+                    <h1>Simret Andarge</h1>
+                    <div class="social_media">
+                        <a href="https://t.me/semru30"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.instagram.com/simretandarge/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/simret-mekuria-01877720b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/simret_andarge"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="introduction">
+                    <h4>-> introduction</h4>
+                    <h2>
+                        Web developer in Ethiopia
+                    </h2>
+                    <p>I am open to new ideas and have a creative mind. I'm well-organized and always prepare ahead to make good use of my time.</p>
+                </div>
+            </div>
+        
+            <div class="jh">
+                <small>
+                    <img src="images\photo_portfolio.jpg" alt=""/>
+                </small>
+            </div>
+    </section>
+    <section class="About" id="story">
+        <div class="story">
+            <div class="Aboutme">
+                <h2>-> Hello, I'm Simret Andarge.</h2>
+                <h3>I'm frontend web developer.</h3>
+                <p>I am open to new ideas and have a creative mind.<br> I'm well-organized and always prepare a head to <br>make good use of my time.</p>
+            </div>
+            <div class="Education">
+                <h3>Education</h3>
+                <h2>-> Software Engineering at ALX</h2>
+                <h2>-> Civil Engineering at AAiT</h2>
+            </div>
+            <div class="Experiance">
+                <h3>Experiance</h3>
+                <h2>-> Web development internship at</h4> <h2>OASIS</h2>
+                <h2>-> Software Engineer at</h5><h2>Miinovation</h2>
+            </div>
+        </div>
+        <div class="allstory">
+            <div class="story">
+                <a href="images\More About.pdf">More About -></a>
+            </div>
+            <div class="cv">
+                <a href="images\cv1.pdf" download >Download cv -></a>
+            </div>
+        </div>
+    </section>
+    <section class="Services" id="Services">
+        <div class="Services">
+            <p>* You can ask me any type of query related to my field and i'll let You know which i can</p>
+            <h2>-> Web Design</h2>
+            <h2>-> Template and</h2>
+            <h2>-> Onother Services</h2>
+            <div class="developer">
+                <div class="frontend">
+                    Front end developer
+                </div>
+                <div class="backend">
+                    Back end developer
+                </div>
+                <div class="fullstack">
+                    Full stack developer
+                </div>
+            </div>
+        </div>
+        <div class="hire">
+            <a class="button" href="#">Hire me</a>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <div class="contact" id="contact">
+            <h2>Contact me via </h2>
+            <div class="call">
+                <a href="+251948791463"><i class="fa-solid fa-phone"></i></a>
+                <u>+251948791463</u>
+            </div>
+            <div class="Email">
+                <a href="andargesimret@gmail.com"><i class="fa-solid fa-envelope"></i> </a>
+                <u>andargesimret@gmail.com</u>
+            </div>
+            <div class="media">
+                <a href="https://t.me/semru30"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.instagram.com/simretandarge/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/simret-mekuria-01877720b/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://twitter.com/simret_andarge"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="your Name" required>
+                <input type="email" placeholder="your Email" required>
+                <input type="number" placeholder="your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10"placeholder="How can I help you" required></textarea>
+                <input type="submit" value="send message" class="submit"required>
+            </form>
+        </div>
+    </section>
+    <section  class="end">
+        <div class="last text">
+            <p>Designed by Simret Andarge Mekuria</p>
+        </div>
+        <div class="top">
+            <a href="#Home"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </section>
+    <script src="const toggleBtn = document .getElementsByClassName('toggle-btn')[0]
+    const navbarLinks = document .getElementsByClassName('navbar-links')[0]
+    
+    toggleBtn  .addEventListener('click', () =>{
+        navbar .classList.menu('active')
+    })"></script>
+</body>
+</html>
